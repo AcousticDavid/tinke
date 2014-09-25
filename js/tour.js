@@ -26,7 +26,7 @@ function ZensoriumTour() {
         contentHeight,
         contentWidth,
         currentIndex = 0,
-        currentScroll,
+    s    currentScroll,
         currentScrollPercent;
 
     var DEVICE_IOS = "ios",
@@ -207,7 +207,7 @@ function ZensoriumTour() {
     var infoTitle = ["heart rate", "blood oxygen level", "respiratory rate", "heart rate variability"];
 
 
-    this.init = function () {
+    this.taehoon = function () {
         //console.log('init');
 
         doc = $(document);
@@ -446,6 +446,7 @@ function ZensoriumTour() {
                 });
             }
         );
+
         div_android_colorselector.children().each(
             function (index, item) {
                 var jItem = $(item);
@@ -548,6 +549,7 @@ function ZensoriumTour() {
         this.onWindowResize();
 
     }
+
     showRunningMan = function () {
         if (isRunningMan) {
             return;

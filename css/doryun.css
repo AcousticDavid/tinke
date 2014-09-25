@@ -2,7 +2,7 @@
 /*=====================↓↓ section2=====================================*/
 #intro.section {
 	position: relative;
-	height: 928px;
+	height: 610px;
 	width: 100%;
 	background: url(../img/bg_intro.jpg);
 	background-position: center center;
@@ -11,8 +11,8 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -500px;
-	margin-top: -290px;
+	margin-left: -480px;
+	margin-top: -107px;
 	width: 960px;
 	height: 381px;
 	/*background: #333 ;임시*/
