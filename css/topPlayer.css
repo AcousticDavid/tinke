@@ -7,10 +7,15 @@
 	margin: 0 auto;
 	background: blue;
 }
+
+
+
 #tinke {
 	position: absolute;
 	top: 253px;
-	left: 150px;
+	/*left: 150px;*/
+	left: 50%;
+    margin-left: -330px;
 	background: red;
 	z-index: 900;
 }

@@ -2,7 +2,7 @@
 /*=====================↓↓ section2=====================================*/
 #intro.section {
 	position: relative;
-	height: 610px;
+	height: 100%;
 	width: 100%;
 	background: url(../img/bg_intro.jpg);
 	background-position: center center;
