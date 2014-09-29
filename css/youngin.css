@@ -1,0 +1,22 @@
+#splash.section {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_splash.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
+
+#splash .container {
+    width: 960px;
+    margin: 0 auto;
+}
+#splash .hand {
+    position: relative;
+    left: -720px;
+    padding-top: 150px;
+}
+#splash .hand .hand1 {
+    width: 977px;
+    height: 644px;
+    background: url('../img/hand_1 (1).png') no-repeat;
+}
