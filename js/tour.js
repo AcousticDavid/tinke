@@ -26,7 +26,7 @@ function ZensoriumTour() {
         contentHeight,
         contentWidth,
         currentIndex = 0,
-    s    currentScroll,
+        currentScroll,
         currentScrollPercent;
 
     var DEVICE_IOS = "ios",
@@ -569,6 +569,7 @@ function ZensoriumTour() {
         );
 
     }
+
     hideRunningMan = function () {
         if (!isRunningMan) {
             return;
@@ -587,12 +588,13 @@ function ZensoriumTour() {
             }
         );
 
-    }
+    };
+
     runningGraphTweenComplete = function (item) {
         var tarHeight = Math.random() * 30;
         var duration = Math.abs(tarHeight - item.height()) / 50;
         TweenMax.to(item, duration, { css: {height: tarHeight}, ease: Cubic.easeInOut, onComplete: runningGraphTweenComplete, onCompleteParams: [item] });
-    }
+    };
 
     this.onWindowScroll = function () {
         //console.log('onWindowScroll');
