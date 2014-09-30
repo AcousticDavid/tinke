@@ -16,11 +16,11 @@ button {background: transparent; border: none;}
 }
 
 .v_h{ visibility:hidden; font-size:1px; height: 0; width: 0;}
-
+.i_r{ position: absolute; top: -1000%; left: -1000%;}
 
 /* ---------------------------------레이아웃--------------------------------- */
 /* 메인 공통 레이아웃 */
-.wrapper { width:100%; height: 100%; background: red;}
+.wrapper { width:100%; height: 100%; }
 
 /* tinke */
 .logos { position:fixed; width:120px; height:80px; left:50%; margin-left:-60px; z-index:99999999;}
